@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		9E25904C2C44567000BA620D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25904B2C44567000BA620D /* AppDelegate.swift */; };
 		9E25904E2C44567000BA620D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25904D2C44567000BA620D /* SceneDelegate.swift */; };
-		9E2590502C44567000BA620D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25904F2C44567000BA620D /* ViewController.swift */; };
-		9E2590532C44567000BA620D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2590512C44567000BA620D /* Main.storyboard */; };
+		9E2590502C44567000BA620D /* HomeAnimeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25904F2C44567000BA620D /* HomeAnimeModule.swift */; };
+		9E2590532C44567000BA620D /* HomeAnimeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2590512C44567000BA620D /* HomeAnimeModule.storyboard */; };
 		9E2590562C44567000BA620D /* AnimeDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E2590542C44567000BA620D /* AnimeDB.xcdatamodeld */; };
 		9E2590582C44567B00BA620D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2590572C44567B00BA620D /* Assets.xcassets */; };
 		9E25905B2C44567B00BA620D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2590592C44567B00BA620D /* LaunchScreen.storyboard */; };
+		9E2590642C4467C100BA620D /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2590632C4467C100BA620D /* AppStoryboard.swift */; };
+		9E2590682C44829D00BA620D /* HomeAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2590672C44829D00BA620D /* HomeAnimeViewController.swift */; };
+		9E25906A2C4483F100BA620D /* HomeAnimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2590692C4483F100BA620D /* HomeAnimePresenter.swift */; };
+		9E25906C2C44840600BA620D /* HomeAnimeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */; };
+		9E25906E2C44841200BA620D /* HomeAnimeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E2590482C44567000BA620D /* AnimeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E25904B2C44567000BA620D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E25904D2C44567000BA620D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E25904F2C44567000BA620D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E2590522C44567000BA620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E25904F2C44567000BA620D /* HomeAnimeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeModule.swift; sourceTree = "<group>"; };
+		9E2590522C44567000BA620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeAnimeModule.storyboard; sourceTree = "<group>"; };
 		9E2590552C44567000BA620D /* AnimeDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimeDB.xcdatamodel; sourceTree = "<group>"; };
 		9E2590572C44567B00BA620D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E25905A2C44567B00BA620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E25905C2C44567B00BA620D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2590632C4467C100BA620D /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		9E2590672C44829D00BA620D /* HomeAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeViewController.swift; sourceTree = "<group>"; };
+		9E2590692C4483F100BA620D /* HomeAnimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimePresenter.swift; sourceTree = "<group>"; };
+		9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeInteractor.swift; sourceTree = "<group>"; };
+		9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +70,35 @@
 			children = (
 				9E25904B2C44567000BA620D /* AppDelegate.swift */,
 				9E25904D2C44567000BA620D /* SceneDelegate.swift */,
-				9E25904F2C44567000BA620D /* ViewController.swift */,
-				9E2590512C44567000BA620D /* Main.storyboard */,
+				9E2590622C44639300BA620D /* HomeAnime */,
 				9E2590572C44567B00BA620D /* Assets.xcassets */,
 				9E2590592C44567B00BA620D /* LaunchScreen.storyboard */,
 				9E25905C2C44567B00BA620D /* Info.plist */,
 				9E2590542C44567000BA620D /* AnimeDB.xcdatamodeld */,
+				9E2590632C4467C100BA620D /* AppStoryboard.swift */,
 			);
 			path = AnimeDB;
+			sourceTree = "<group>";
+		};
+		9E2590622C44639300BA620D /* HomeAnime */ = {
+			isa = PBXGroup;
+			children = (
+				9E25904F2C44567000BA620D /* HomeAnimeModule.swift */,
+				9E2590672C44829D00BA620D /* HomeAnimeViewController.swift */,
+				9E2590692C4483F100BA620D /* HomeAnimePresenter.swift */,
+				9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */,
+				9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */,
+				9E25906F2C448B7C00BA620D /* Storyboards */,
+			);
+			path = HomeAnime;
+			sourceTree = "<group>";
+		};
+		9E25906F2C448B7C00BA620D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9E2590512C44567000BA620D /* HomeAnimeModule.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +161,7 @@
 			files = (
 				9E25905B2C44567B00BA620D /* LaunchScreen.storyboard in Resources */,
 				9E2590582C44567B00BA620D /* Assets.xcassets in Resources */,
-				9E2590532C44567000BA620D /* Main.storyboard in Resources */,
+				9E2590532C44567000BA620D /* HomeAnimeModule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2590642C4467C100BA620D /* AppStoryboard.swift in Sources */,
+				9E25906E2C44841200BA620D /* HomeAnimeRouter.swift in Sources */,
+				9E25906A2C4483F100BA620D /* HomeAnimePresenter.swift in Sources */,
+				9E25906C2C44840600BA620D /* HomeAnimeInteractor.swift in Sources */,
 				9E2590562C44567000BA620D /* AnimeDB.xcdatamodeld in Sources */,
-				9E2590502C44567000BA620D /* ViewController.swift in Sources */,
+				9E2590682C44829D00BA620D /* HomeAnimeViewController.swift in Sources */,
+				9E2590502C44567000BA620D /* HomeAnimeModule.swift in Sources */,
 				9E25904C2C44567000BA620D /* AppDelegate.swift in Sources */,
 				9E25904E2C44567000BA620D /* SceneDelegate.swift in Sources */,
 			);
@@ -151,12 +187,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E2590512C44567000BA620D /* Main.storyboard */ = {
+		9E2590512C44567000BA620D /* HomeAnimeModule.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9E2590522C44567000BA620D /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeAnimeModule.storyboard;
 			sourceTree = "<group>";
 		};
 		9E2590592C44567B00BA620D /* LaunchScreen.storyboard */ = {
