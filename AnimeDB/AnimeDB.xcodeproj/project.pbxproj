@@ -19,6 +19,8 @@
 		9E25906A2C4483F100BA620D /* HomeAnimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2590692C4483F100BA620D /* HomeAnimePresenter.swift */; };
 		9E25906C2C44840600BA620D /* HomeAnimeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */; };
 		9E25906E2C44841200BA620D /* HomeAnimeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */; };
+		9EA4596B2C4D870C00F61711 /* HomeAnimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4596A2C4D870C00F61711 /* HomeAnimeTableViewCell.swift */; };
+		9EA4596D2C4D998E00F61711 /* HomeAnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4596C2C4D998E00F61711 /* HomeAnimeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		9E2590692C4483F100BA620D /* HomeAnimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimePresenter.swift; sourceTree = "<group>"; };
 		9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeInteractor.swift; sourceTree = "<group>"; };
 		9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeRouter.swift; sourceTree = "<group>"; };
+		9EA4596A2C4D870C00F61711 /* HomeAnimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeTableViewCell.swift; sourceTree = "<group>"; };
+		9EA4596C2C4D998E00F61711 /* HomeAnimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				9E25906B2C44840600BA620D /* HomeAnimeInteractor.swift */,
 				9E25906D2C44841200BA620D /* HomeAnimeRouter.swift */,
 				9E25906F2C448B7C00BA620D /* Storyboards */,
+				9EA4596A2C4D870C00F61711 /* HomeAnimeTableViewCell.swift */,
+				9EA4596C2C4D998E00F61711 /* HomeAnimeCollectionViewCell.swift */,
 			);
 			path = HomeAnime;
 			sourceTree = "<group>";
@@ -177,10 +183,12 @@
 				9E25906A2C4483F100BA620D /* HomeAnimePresenter.swift in Sources */,
 				9E25906C2C44840600BA620D /* HomeAnimeInteractor.swift in Sources */,
 				9E2590562C44567000BA620D /* AnimeDB.xcdatamodeld in Sources */,
+				9EA4596B2C4D870C00F61711 /* HomeAnimeTableViewCell.swift in Sources */,
 				9E2590682C44829D00BA620D /* HomeAnimeViewController.swift in Sources */,
 				9E2590502C44567000BA620D /* HomeAnimeModule.swift in Sources */,
 				9E25904C2C44567000BA620D /* AppDelegate.swift in Sources */,
 				9E25904E2C44567000BA620D /* SceneDelegate.swift in Sources */,
+				9EA4596D2C4D998E00F61711 /* HomeAnimeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +345,7 @@
 				INFOPLIST_FILE = AnimeDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeAnimeModule;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -365,7 +373,7 @@
 				INFOPLIST_FILE = AnimeDB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeAnimeModule;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
